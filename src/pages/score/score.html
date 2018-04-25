@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Cricket Fast Live Line</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-tabs >
+    <ion-tab tabIcon="md-pulse" tabTitle="Live" [root]="livePage"></ion-tab>
+    <ion-tab tabIcon="md-trending-up" tabTitle="Result" [root]="resultPage"></ion-tab>
+    <ion-tab tabIcon="ios-timer-outline" tabTitle="Upcoming Match" [root]="upcomingmatchPage"></ion-tab>
+  </ion-tabs>
+</ion-content>
+
+
+<!-- <h3>Ionic Menu Starter</h3>
+
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p>
+
+  <button ion-button secondary menuToggle>Toggle Menu</button> -->
+<!-- <div>
+    <ion-segment [(ngModel)]="score">
+      <ion-segment-button value="Live">
+        Live
+      </ion-segment-button>
+      <ion-segment-button value="Result">
+        Result
+      </ion-segment-button>
+      <ion-segment-button value="Upcoming">
+        Upcoming
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="score">
+    <ion-list *ngSwitchCase="'Live'">
+      <ion-item>
+          <h2>Live</h2>
+      </ion-item>
+
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'Result'">
+      <ion-item>
+          <h2>Result</h2>
+      </ion-item>
+
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'Upcoming'">
+      <ion-item>
+           <h2>Upcoming</h2>
+      </ion-item>
+
+    </ion-list>
+  </div> -->
