@@ -6,7 +6,27 @@
       <ion-title>Cricket Fast Live Line</ion-title>
     </ion-navbar>
   </ion-header> -->
-  
-  <ion-content>
-  welcme to home
-  </ion-content>
+
+<ion-content text-center> 
+
+  <ion-img width="200" height="200" src="../../assets/imgs/logo.jpg"></ion-img>
+  <div margin>
+    <div>
+      <ion-item margin-bottom  style="background-color:#00BFA5;box-shadow:0px 0px 5px 0px #004D40">
+        <ion-label floating style="color:white;font-weight:400" >Username</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item style="background-color:#00BFA5;box-shadow:0px 0px 5px 0px #004D40">
+        <ion-label floating style="color:white;font-weight:400">Password</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </div>
+    <div>
+      <h4 text-right margin (click)="forgetpwd()">Forgot Password?</h4>
+    </div>
+    <div>
+      <button ion-button large color="light" outline (click)="signin()">SIGN IN</button>
+      <button ion-button large color="light" outline (click)="signup()">SIGN UP</button>
+    </div>
+  </div>
+</ion-content>

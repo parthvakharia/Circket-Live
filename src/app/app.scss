@@ -1,3 +1,11 @@
 page-app {
-    
-}  
+     ion-title img{ 
+        position: relative;
+        margin-left: 11px;
+        background: transparent;   
+        display: inline-block;
+        border-radius: 25%;
+        border:5px solid #1DE9B6;
+        box-shadow:0px 0px 5px 0px #1DE9B6;
+    }
+ }  

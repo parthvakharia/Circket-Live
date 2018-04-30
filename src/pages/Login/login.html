@@ -1,3 +1,23 @@
-<ion-content>
-    Welcome to LOgin
+  <ion-content text-center> 
+
+    <ion-img width="200" height="200" src="../../assets/imgs/logo.jpg"></ion-img>
+    <div margin>
+      <div>
+          <ion-item margin-bottom  style="background-color:#00BFA5;box-shadow:0px 0px 5px 0px #004D40">
+              <ion-label floating style="color:white;font-weight:400" >Username</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
+        <ion-item  margin-bottom style="background-color:#00BFA5;box-shadow:0px 0px 5px 0px #004D40">
+          <ion-label floating style="color:white;font-weight:400" >Conatct_No</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+        <ion-item  margin-bottom  style="background-color:#00BFA5;box-shadow:0px 0px 5px 0px #004D40">
+          <ion-label floating style="color:white;font-weight:400">Password</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </div>
+      <div>
+        <button ion-button large color="light" outline (click)="signup()">SIGN UP</button>
+      </div>
+    </div>
   </ion-content>
