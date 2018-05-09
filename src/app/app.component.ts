@@ -10,9 +10,10 @@ import { SharePage } from '../pages/share/share';
 import { PrivacypolicyPage } from '../pages/Privacypolicy/Privacypolicy';
 import { TermsandconditionPage } from '../pages/Termsandcondition/Termsandcondition';
 
-// import { LivePage } from '../tab/live/live';
-// import { ResultPage } from '../tab/result/result';
-// import { UpcomingmatchPage } from '../tab/upcomingmatch/upcomingmatch';
+import { LivePage } from '../tab/live/live';
+import { LivescorePage } from '../pages/livescore/livescore';
+import { ResultPage } from '../tab/result/result';
+import { UpcomingmatchPage } from '../tab/upcomingmatch/upcomingmatch';
 
 @Component({
   selector: 'page-app',
@@ -34,8 +35,8 @@ export class MyApp {
       { title: 'Cricket Live Score', component: ScorePage },
       { title: 'Share', component: SharePage },
       { title: 'Privacy Policy', component: PrivacypolicyPage },
-      { title: 'Terms & Conditions', component: TermsandconditionPage }
-    
+      { title: 'Terms & Conditions', component: TermsandconditionPage },
+      { title: 'Live score', component: LivescorePage }
     
     ];
 

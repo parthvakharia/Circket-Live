@@ -1,5 +1,22 @@
 page-live {
 
+    .card-header-md {
+         color: white;
+         background-color:#00BFA5;
+    }
+    .card-content-md {
+        background-color:white;
+    }
+    ion-col img{
+        border:solid 2px #00796B;
+      border-radius:50px;
+    }
+    .infotext{
+        font-size: 15px;
+        font-weight: bold;
+        color: #00796B;
+    }
+
     
 
 } 

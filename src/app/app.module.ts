@@ -14,6 +14,7 @@ import { TermsandconditionPage } from '../pages/Termsandcondition/Termsandcondit
 import { LivePage } from '../tab/live/live';
 import { ResultPage } from '../tab/result/result';
 import { UpcomingmatchPage } from '../tab/upcomingmatch/upcomingmatch';
+import { LivescorePage } from '../pages/livescore/livescore';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -31,7 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TermsandconditionPage,
     LivePage,
     ResultPage,
-    UpcomingmatchPage
+    UpcomingmatchPage,
+    LivescorePage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +50,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TermsandconditionPage,
     LivePage,
     ResultPage,
-    UpcomingmatchPage
+    UpcomingmatchPage,
+    LivescorePage
   ],
   providers: [
     StatusBar,
